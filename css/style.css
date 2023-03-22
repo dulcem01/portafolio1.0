@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body{
+	font-family:  Segoe UI;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #000000;
+	font-family: 'Lato', sans-serif;
+}
+header{
+	background-color: #000000;
+	padding: 20px 0;
+}
+
+#hero{
+	background-image:url(../img/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 700;
+	
+}
+
+#hero p{
+	font-size: 20px;
+}
+
+.btn-rectangulo{
+	background-color:transparent;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weight:600;
+}
+.btn-rectangulo:hover{
+	background-color: #FFFFFF;
+	color:#000;
+	
+}
+
+#services{
+	padding: 100px 0px;
+	
+}
+
+#services h2{
+	font-size: 40px;
+	
+	
+}
+	
+#portafolio{
+	padding:100px 0px;
+}
+
+#portafolio .info-scroll{
+	text-align:center;
+	margin-bottom: 50px;
+	margin: 20px;
+}
+
+.info-scroll h3{
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.info-scroll h4{
+	font-size: 22px;
+	
+}
+
+.info-scroll p{
+	font-size: 16px;
+}
+
+#BRM{
+	background-color: #171717;
+	padding: 50px 0px;
+}
+
+#CH{
+	background-color: #171717;
+	padding: 50px 0px;
+}
+.titulo{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+
+.titulo::after{
+	content:'';
+	height: 1px;
+	background-color: #fff;
+	width: 100px;
+	display: block;
+margin-top: 20px
+}
+
+.foto{
+	position:relative;
+	overflow: hidden;
+}
+
+.overlay{
+	position: absolute;
+	top:40%;
+	left:0;
+	width: 90%;
+	padding: 30px 40px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.foto:hover .overlay{
+    opacity: 1;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(5%,0,0);
+}
+
+.foto img{
+	transition: all 0.3s ease-in-out;
+}
+
+.foto:hover img{
+	transform: scale(1.06);
+	transition: all 0.3s ease-in-out;
+	
+}
+.bg-over-blue{
+	background-color: rgba(0,20,74,0.80)
+}
+
+
+
+#logo-forms .info-foto{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color: rgba(0,0,0,1.00);
+	text-align: center;
+	z-index:2;
+}
+
+#logo-forms .overlay{
+	top:0;
+	height:100%;
+	width:100%;
+	opacity: 0;
+	z-index: 1;
+	
+}
+
+#logo-forms .foto:hover .overlay{
+	opacity:1;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#page-header{
+	background-color: #0C0C0C;
+	color: #fff;
+	padding: 50px 0;
+	
+}
+
+
+#page-header h1{
+font-size: 26px;
+}
+
+#content{
+	padding: 45px 0;
+}
+
+.icono{
+	font-size: 40px;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fff;
+    border: 0 !important;
+}
+
+.info-scroll .fas{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+#blog article:nth-child(1){
+	padding-top: 100px;
+}
+
+.titulo span{
+	display:block;
+	font-weight: 400;
+}
+
+#parallax{
+	background-image:url( "../img/yop1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	
+}
+
+#message{
+	padding: 50px 0;
+	text-align: center;
+	
+}
+
+#message h2{
+	font-size: 20px;
+	
+}
+#message h2 a{
+margin-left: 30px;
+}
+
+#footer{
+	background-color: #0C0C0C;
+	padding: 50px 0;
+	width: 100%;
+	
+}
+
+#footer h3{
+	font-size: 20px;
+     margin-bottom: 20px;
+}
+
+#footer a,
+#copyright a{
+	color: #fff;
+}
+
+#footer a:hover,
+#copyright a:hover{
+	color: #555;
+}
+	
+#copyright{
+	padding: 25px 0;
+}
